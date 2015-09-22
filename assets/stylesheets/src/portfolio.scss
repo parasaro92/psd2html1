@@ -1,10 +1,11 @@
 #portfolio {
-  height: 35em;
-
+  min-height: 35em;
+  
 
   h2 {
     text-align: center;
     font-size: 3.1em;
+    margin-top: 2em;
   }
 
   p {
@@ -19,23 +20,39 @@
   .pad {
     padding: 0 !important;
   }
+
+  // .cc {
+  //   padding: 0 !important;
+  //   width: 100%;
+
+  //   .bb {
+  //     height: 100px;
+  //   min-height: 80px;
+
+  //   }
+  // }  
+
   .img-pic {
     position: relative;
+
+    img {
+      width: auto;
+      height: 250px;
+    }
 
     .text-overlay {
      position: absolute;
      top: 50%;
      transform: translateY(-50%);
      visibility: hidden;
-   }
+    }
 
-   &:hover .text-overlay {
+    &:hover .text-overlay {
     visibility: visible;
+    }
   }
 
-  
-}
-.btng {
+  .btng {
     margin-bottom: 2em;
   }
 }

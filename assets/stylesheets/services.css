@@ -1,29 +1,30 @@
-#services .img-container {
-  padding: 0;
-  height: 30em; }
-#services h4 {
-  font-size: 1.1em;
-  font-weight: bold;
-  text-transform: uppercase;
-  margin-top: 3em; }
-#services p.code {
-  font-size: 1.1em;
-  margin: 2em 0; }
-#services a {
-  font-size: 1.1em;
-  padding: 1em 1em;
-  font-weight: bold;
-  margin: 2em 0;
-  display: inline-block; }
-  #services a, #services a:hover {
-    background-color: #273943;
-    color: #FFFFFF;
-    text-decoration: none; }
-#services .img {
-  background-size: cover;
-  height: 30em; }
-#services .paras {
-  background-color: #ffc056;
-  height: 30em; }
+#services {
+  min-height: 35em; }
+  #services h4 {
+    font-size: 1.1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 3em; }
+  #services p.code {
+    font-size: 1.1em;
+    margin: 2em 0; }
+  #services a {
+    font-size: 1.1em;
+    padding: 1em 1em;
+    font-weight: bold;
+    margin: 2em 0;
+    display: inline-block; }
+    #services a, #services a:hover {
+      background-color: #273943;
+      color: #FFFFFF;
+      text-decoration: none; }
+  #services .bg-service {
+    background-image: url("../images/key.jpg");
+    background-size: cover;
+    min-height: 426px; }
+  #services .img {
+    background-size: cover; }
+  #services .paras {
+    background-color: #ffc056; }
 
 /*# sourceMappingURL=services.css.map */

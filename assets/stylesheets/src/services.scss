@@ -1,7 +1,8 @@
 #services {
+  min-height: 35em;
   .img-container {
-    padding: 0;
-    height: 30em;
+    // padding:0;
+    
   }
 
   h4 {
@@ -30,13 +31,19 @@
     }
   }
 
+  .bg-service {
+    background-image: url("../images/key.jpg");
+    background-size: cover;
+    min-height: 426px;
+  }
+
   .img {
     background-size: cover;
-    height: 30em;
+    // height: 30em;
   }
 
   .paras{
     background-color: #ffc056;
-    height: 30em;
+    // height: 30em;
   }
 }

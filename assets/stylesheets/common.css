@@ -38,5 +38,7 @@ footer {
   color: #FFF;
   padding: 5vh 0;
   text-align: center; }
+  footer .fa {
+    margin-right: 0.5em; }
 
 /*# sourceMappingURL=common.css.map */
