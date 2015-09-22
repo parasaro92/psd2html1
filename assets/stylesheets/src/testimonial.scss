@@ -1,0 +1,64 @@
+#testimonial {
+  min-height: 25em;
+  margin-bottom: 4em;
+
+  h4 {
+    text-transform: uppercase;
+    font-size: 2.1em;
+    font-weight: 500;
+    font-family: monospace;
+    color: black;
+  }
+
+  .well {
+    margin: 5em -1;
+    position: relative;
+
+    &::after {
+    content: '';
+    bottom: -2.9em;
+    left: 4em;
+    border-top: 40px solid #f5f5f5;
+    border-left: 0px solid transparent;
+    border-right: 27px solid transparent;
+    position: absolute;
+    width: 0px;
+    height: 0;
+    }
+  }
+
+  h2 {
+    text-transform: uppercase;
+    color: blue;
+    text-align: center;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+    padding: 12vh 0;
+  }
+
+  .test {
+    margin-left: 15px;
+  }
+
+  .carousel-content {
+    color: black;
+    display: flex;
+  }
+
+  .carousel-indicators  {
+    margin-bottom: -2em;
+
+    li {
+      background-color: black;
+    }
+  }
+
+  .carousel-control.right {
+    background-image: none; 
+  }
+
+  .carousel-control.left {
+    background-image: none; 
+  }
+}  

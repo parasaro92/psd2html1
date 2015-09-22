@@ -1,0 +1,41 @@
+#portfolio {
+  height: 35em;
+
+
+  h2 {
+    text-align: center;
+    font-size: 3.1em;
+  }
+
+  p {
+    text-align: center;
+    padding-top: 3em;
+  }
+
+  .btn-group .btn {
+    margin-right: 1em;
+  }
+
+  .pad {
+    padding: 0 !important;
+  }
+  .img-pic {
+    position: relative;
+
+    .text-overlay {
+     position: absolute;
+     top: 50%;
+     transform: translateY(-50%);
+     visibility: hidden;
+   }
+
+   &:hover .text-overlay {
+    visibility: visible;
+  }
+
+  
+}
+.btng {
+    margin-bottom: 2em;
+  }
+}

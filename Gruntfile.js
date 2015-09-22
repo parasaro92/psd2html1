@@ -4,7 +4,12 @@ module.exports = function(grunt) {
       dist: {
         files: {
           'assets/stylesheets/common.css': 'assets/stylesheets/src/common.scss',
-          'assets/stylesheets/land.css': 'assets/stylesheets/src/land.scss'
+          'assets/stylesheets/home.css': 'assets/stylesheets/src/home.scss',
+          'assets/stylesheets/about.css': 'assets/stylesheets/src/about.scss',
+          'assets/stylesheets/services.css': 'assets/stylesheets/src/services.scss',
+          'assets/stylesheets/portfolio.css': 'assets/stylesheets/src/portfolio.scss',
+          'assets/stylesheets/testimonial.css': 'assets/stylesheets/src/testimonial.scss',
+          'assets/stylesheets/contact.css': 'assets/stylesheets/src/contact.scss'
         }
       }
     },
@@ -20,7 +25,12 @@ module.exports = function(grunt) {
           'assets/stylesheets/app.min.css':
           [
            'assets/stylesheets/common.css', 
-           'assets/stylesheets/land.css' 
+           'assets/stylesheets/home.css',
+           'assets/stylesheets/about.css',
+           'assets/stylesheets/services.css',
+           'assets/stylesheets/portfolio.css',
+           'assets/stylesheets/testimonial.css',
+           'assets/stylesheets/contact.css'
           ]  
         }
       }

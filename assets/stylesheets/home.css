@@ -1,0 +1,29 @@
+#home {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../images/city.jpg");
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #BADA55;
+  text-align: center; }
+  #home .carousel-indicators {
+    margin-bottom: -3em; }
+  #home .carousel-control.right {
+    background-color: transparent; }
+  #home .carousel-control.left {
+    background-color: transparent; }
+  #home a {
+    font-size: 1.1em;
+    padding: 1em 1em;
+    font-weight: bold;
+    margin: 4em 0;
+    display: inline-block;
+    background-color: #6d9dce; }
+    #home a, #home a:hover {
+      color: #FFFFFF;
+      text-decoration: none; }
+  #home .meta-info {
+    font-size: 0.85em; }
+
+/*# sourceMappingURL=home.css.map */

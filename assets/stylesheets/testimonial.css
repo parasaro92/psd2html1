@@ -1,0 +1,45 @@
+#testimonial {
+  min-height: 25em;
+  margin-bottom: 4em; }
+  #testimonial h4 {
+    text-transform: uppercase;
+    font-size: 2.1em;
+    font-weight: 500;
+    font-family: monospace;
+    color: black; }
+  #testimonial .well {
+    margin: 5em -1;
+    position: relative; }
+    #testimonial .well::after {
+      content: '';
+      bottom: -2.9em;
+      left: 4em;
+      border-top: 40px solid #f5f5f5;
+      border-left: 0px solid transparent;
+      border-right: 27px solid transparent;
+      position: absolute;
+      width: 0px;
+      height: 0; }
+  #testimonial h2 {
+    text-transform: uppercase;
+    color: blue;
+    text-align: center;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+    padding: 12vh 0; }
+  #testimonial .test {
+    margin-left: 15px; }
+  #testimonial .carousel-content {
+    color: black;
+    display: flex; }
+  #testimonial .carousel-indicators {
+    margin-bottom: -2em; }
+    #testimonial .carousel-indicators li {
+      background-color: black; }
+  #testimonial .carousel-control.right {
+    background-image: none; }
+  #testimonial .carousel-control.left {
+    background-image: none; }
+
+/*# sourceMappingURL=testimonial.css.map */
