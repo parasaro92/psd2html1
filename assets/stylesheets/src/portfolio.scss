@@ -1,5 +1,13 @@
 #portfolio {
   min-height: 35em;
+
+  hr {
+    border-width: 3px;
+    display: block;
+    color: yellow;
+    width: 21%;
+    border-top: 1px solid #EF1;
+  }
   
 
   h2 {
