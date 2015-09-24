@@ -26,6 +26,11 @@ $('document').ready(function() {
   $('.carousel').carousel({
   interval: 2000
   }); 
+
+  $('#carousel-example').carousel({
+      pause: "hover"
+    });
+  
 });
 
     setCarouselHeight('#carousel-example');
@@ -48,3 +53,5 @@ $('document').ready(function() {
             $(this).css('height',max+'px');
         });
     }
+
+    

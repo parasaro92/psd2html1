@@ -3,16 +3,30 @@
   margin-bottom: 4em;
 
   h4 {
-    text-transform: uppercase;
-    font-size: 2.1em;
-    font-weight: 500;
-    font-family: monospace;
+    font-size: 1.1em;
+    font-weight: 300;
     color: black;
+    margin-top: -35px;
+    margin-right: -2em;
+    margin-bottom: -1px;
+    margin-left: -2em;
+  }
+
+  .lefts {
+    margin-right: 3em;
+    margin-left: 5em;
+  }
+
+  .rights {
+    margin-right: 4em;
   }
 
   .well {
     margin: 5em -1;
     position: relative;
+    margin-right: 4em;
+    padding: 55px;
+    margin-bottom: 33px;
 
     &::after {
     content: '';
@@ -32,13 +46,14 @@
     color: blue;
     text-align: center;
     font-weight: bold;
-    font-family: monospace;
     text-align: center;
-    padding: 12vh 0;
+    padding: 16vh 0;
+    margin-top: 0em;
   }
 
   .test {
-    margin-left: 15px;
+    margin-left: 36px;
+    font-weight: 500;
   }
 
   .carousel-content {
@@ -47,7 +62,7 @@
   }
 
   .carousel-indicators  {
-    margin-bottom: -2em;
+    margin-bottom: -4em;
 
     li {
       background-color: black;
@@ -56,9 +71,33 @@
 
   .carousel-control.right {
     background-image: none; 
+    right: -2em;
+    left: 54em;
+    width: 7%;
   }
 
   .carousel-control.left {
     background-image: none; 
+    right: -19em;
+    left: -5px;
+    width: 7%;
+  }
+
+  hr {
+    background-color: #ff0;
+    width: 20em;
+    height: 2px;
+    margin-top: -6em;
+  }
+
+  .hr-star {
+    position: relative;
+    top: -1.0em;
+    display: inline-block;
+    color: yellow;
+    background-color: white;
+    width: 2em;
+    text-align: center;
+    margin-left: 20em;
   }
 }  

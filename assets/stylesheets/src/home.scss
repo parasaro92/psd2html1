@@ -5,11 +5,11 @@
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #BADA55;
+  color: #C0DA55;
   text-align: center;
 
   .carousel-indicators {
-    margin-bottom: -3em;
+    margin-bottom: -5em;
   }
 
  .carousel-control.right {
@@ -29,6 +29,8 @@
     margin: 4em 0;
     display: inline-block;
     background-color: #6d9dce;
+    color: blue;
+    margin-right: 8em;
 
     &, &:hover {
       color: #FFFFFF;
