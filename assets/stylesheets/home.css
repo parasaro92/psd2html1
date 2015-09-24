@@ -5,10 +5,10 @@
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #BADA55;
+  color: #C0DA55;
   text-align: center; }
   #home .carousel-indicators {
-    margin-bottom: -3em; }
+    margin-bottom: -5em; }
   #home .carousel-control.right {
     background-color: transparent; }
   #home .carousel-control.left {
@@ -19,7 +19,9 @@
     font-weight: bold;
     margin: 4em 0;
     display: inline-block;
-    background-color: #6d9dce; }
+    background-color: #6d9dce;
+    color: blue;
+    margin-right: 8em; }
     #home a, #home a:hover {
       color: #FFFFFF;
       text-decoration: none; }
