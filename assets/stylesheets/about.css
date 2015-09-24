@@ -18,17 +18,18 @@
     font-family: sans-serif;
     text-align: center;
     margin-top: 0em;
-    color: blue; }
+    color: #719DCA; }
   #about .meta-info {
     text-align: center; }
   #about p {
     font-weight: 300; }
   #about .fa {
-    color: blue; }
+    color: #A8BBCC; }
   #about .about-icon {
     float: left;
     margin-left: -2em;
-    margin-bottom: -1em; }
+    margin-bottom: -1em;
+    margin-top: -1em; }
   #about .about-desc {
     margin-left: 2em;
     float: left;
